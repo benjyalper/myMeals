@@ -1,0 +1,38 @@
+body {
+    font-family: Arial, sans-serif;
+    height: 100vh;
+    background-color: #F6FDC3;
+    margin: 0;
+}
+
+h1 {
+    color: #C6EBC5;
+    text-align: center;
+    background-color: #FA7070;
+    padding: 20px;
+}
+
+.grid-container {
+    height: 80vh;
+    display: grid;
+    grid-template-columns: repeat(8, 1fr);
+    grid-template-rows: repeat(5, 1fr);
+    background-color: #F6FDC3;
+    border: 2px solid #C6EBC5;
+}
+
+.heading {
+    color: #C6EBC5;
+    height: 5vh;
+    text-align: center;
+    padding: 5px;
+    font-size: large;
+}
+
+.weekDays {
+    border: 2px solid #C6EBC5;
+    background-color: #FA7070;
+    text-align: center;
+    padding: 5px;
+    font-size: large;
+}
